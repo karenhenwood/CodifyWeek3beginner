@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+}
+
+/*Navigation bar styling*/
+nav{
+	background-color:#FE7E00;
+	color: #F1DCBC;
+	overflow: auto;
+}
+nav div{
+	display: inline-block;
+	font-size: 30px;
+	padding-left: 5%;
+	padding-top: 1%;
+}
+nav img{
+	display: inline-block;
+	width: 30px;
+	vertical-align: middle;
+}
+nav p {
+	display: inline-block;
+	font-family: 'Varela Round', sans-serif;
+	margin:0;
+	font-weight: 100;
+}
+nav span{
+	font-weight: 900;
+}
+nav ul{
+	display: inline-block;
+	float: right;
+	width: 55%;
+	margin: 0;
+	padding:0;
+}
+nav li {
+	display: inline-block;
+	font-family: 'Varela', sans-serif;
+	float: right;
+	font-size: 15px;
+	font-weight: 900;
+	padding: 3% 4%;
+	text-transform: uppercase;
+}
+/*Section break styling*/
+#sectionbreak{
+	background-color: #F16F01;
+	height: 10px;
+}
+
