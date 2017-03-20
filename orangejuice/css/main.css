@@ -50,3 +50,58 @@ nav li {
 	height: 10px;
 }
 
+/*Mid-Section styling*/
+#leftpanel{
+	width: 50%;
+	display: inline-block;
+}
+#leftpanel img{
+	width: 56%;
+	margin: 20% 22%;
+}
+#rightpanel{
+	width: 50%;
+	display: inline-block;
+	float: right;
+	text-align:right;
+}
+#rightpanel input{
+	background-color: #F0F0F0;
+	border: none;
+    margin-top: .5%;
+	margin-right: 5%;
+	padding: 2% 0 2% 1%;
+}
+#rightpanel p{
+	font-family: 'Varela Round', sans-serif;
+}
+#centeredcontent{
+	text-align:center;
+}
+#rightpanel p{
+	color: #FE7E00;
+	font-size: 30px;
+	font-weight: 100;
+}
+#rightpanel span{
+	font-weight: 900;
+}
+.bluetext{
+	color: #7ACCC8;
+}
+#rightpanel button{
+	border: none;
+	color: #F1DCBC;
+}
+#leftbutton{
+ background-color: #FE7E00;
+}
+#rightbutton{
+	background-color: #7ACCC8;
+}
+
+/*Empty Blue Footer styling*/
+footer{
+	background-color: #7ACCC8;
+	height: 100px;
+}
