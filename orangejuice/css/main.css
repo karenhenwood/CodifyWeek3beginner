@@ -63,25 +63,52 @@ nav li {
 	width: 50%;
 	display: inline-block;
 	float: right;
-	text-align:right;
 }
-#rightpanel input{
+.inputzone {
+	position: relative;
+	margin-top: .5%;
+}
+.inputzone input{
+	background-image: url(<i class="fa fa-search" aria-hidden="true"></i>);
 	background-color: #F0F0F0;
 	border: none;
-    margin-top: .5%;
-	margin-right: 5%;
+	width: 30%;
+	position: absolute;
+	right: 0;
 	padding: 2% 0 2% 1%;
+	margin-right: 5%;
+	color: #C8C8CA;
+	font-size: 15px;
 }
+.inputzone i{
+	position: absolute;
+	right: 0;
+	padding: 2% 2% 0 0;
+	margin-right: 5%;
+	color: #C8C8CA;
+	font-size: 20px;
+}
+#rightpanel input:focus{
+	outline: none;
+	z-index: 1;
+}
+
 #rightpanel p{
 	font-family: 'Varela Round', sans-serif;
 }
 #centeredcontent{
-	text-align:center;
+	text-align: center;
+	margin:30% 15% 0 10%;
 }
 #rightpanel p{
 	color: #FE7E00;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 100;
+	text-align: left;
+	margin: 0;
+	padding: 1% 0 1% 0;
+	word-spacing: 10px;
+	letter-spacing: 2px;
 }
 #rightpanel span{
 	font-weight: 900;
@@ -92,12 +119,19 @@ nav li {
 #rightpanel button{
 	border: none;
 	color: #F1DCBC;
+	margin-top: 10%;
+	width: 47%;
+    padding: 4% 0;
+    font-size: 20px;
 }
 #leftbutton{
- background-color: #FE7E00;
+     background-color: #FE7E00;
+     float:left;
+
 }
 #rightbutton{
 	background-color: #7ACCC8;
+	float: right;
 }
 
 /*Empty Blue Footer styling*/
