@@ -1,10 +1,11 @@
 body{
 	margin: 0;
+	position: relative;
 }
 
 /*Navigation bar styling*/
 nav{
-	background-color:#FE7E00;
+	background-color: #FE7E00;
 	color: #F1DCBC;
 	overflow: auto;
 }
@@ -22,7 +23,7 @@ nav img{
 nav p {
 	display: inline-block;
 	font-family: 'Varela Round', sans-serif;
-	margin:0;
+	margin: 0;
 	font-weight: 100;
 }
 nav span{
@@ -33,7 +34,7 @@ nav ul{
 	float: right;
 	width: 55%;
 	margin: 0;
-	padding:0;
+	padding: 0;
 }
 nav li {
 	display: inline-block;
@@ -44,6 +45,7 @@ nav li {
 	padding: 3% 4%;
 	text-transform: uppercase;
 }
+
 /*Section break styling*/
 #sectionbreak{
 	background-color: #F16F01;
@@ -92,13 +94,12 @@ nav li {
 	outline: none;
 	z-index: 1;
 }
-
 #rightpanel p{
 	font-family: 'Varela Round', sans-serif;
 }
 #centeredcontent{
 	text-align: center;
-	margin:30% 15% 0 10%;
+	margin: 30% 15% 0 10%;
 }
 #rightpanel p{
 	color: #FE7E00;
@@ -123,10 +124,12 @@ nav li {
 	width: 47%;
     padding: 4% 0;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 #leftbutton{
      background-color: #FE7E00;
-     float:left;
+     float: left;
 
 }
 #rightbutton{
@@ -138,4 +141,5 @@ nav li {
 footer{
 	background-color: #7ACCC8;
 	height: 100px;
+	bottom: 0;
 }
